@@ -28,7 +28,7 @@ class SearchBar extends React.Component {
             onChange={this.onInputChange}
           />
           <button className="inputButton" onChange={this.onInputChange}>
-            Search
+            Unsplash me
           </button>
         </form>
       </div>
