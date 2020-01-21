@@ -11,7 +11,7 @@ class App extends React.Component {
       params: { query: term },
       headers: {
         Authorization:
-    
+          "Client-ID 
       }
     });
 

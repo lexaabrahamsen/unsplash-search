@@ -18,7 +18,7 @@ class SearchBar extends React.Component {
       <div>
         <form onSubmit={this.onFormSubmit} className="flexContainer">
           <label>
-            <h2>Image Search</h2>
+            <h1 className="h1">Image Search</h1>
           </label>
           <input
             className="inputStyle"
@@ -26,6 +26,9 @@ class SearchBar extends React.Component {
             value={this.state.val}
             onChange={this.onInputChange}
           />
+          <button value={this.state.val} onChange={this.onInputChange}>
+            Search
+          </button>
         </form>
       </div>
     );

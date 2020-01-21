@@ -2,12 +2,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
+}
+
+.h1 {
+  font-size: 100px;
+  color: blue;
 }
 
 .inputStyle {
   font-size: 1.5em;
   padding: 3px;
+  padding-left: 20px;
   display: inline-block;
   width: 30%;
+  /* border: 1px solid black; */
+  border-bottom: 1px solid black;
 }
