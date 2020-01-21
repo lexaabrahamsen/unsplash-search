@@ -8,14 +8,24 @@
 
 .h1 {
   font-size: 5em;
-  color: blue;
+  color: 000;
+  letter-spacing: normal;
+  line-height: 1.1em;
+  font-family: "Montserrat";
+}
+
+.h3 {
   letter-spacing: normal;
   line-height: normal;
-  font-family: "Roboto";
+  font-family: "Montserrat";
+  font-size: 1em;
+  color: 000;
+  font-weight: 500;
 }
 
 .inputStyle {
   font-size: 1.4em;
+  font-family: "Montserrat";
   padding: 3px 12px 6px;
   /* display: inline-block; */
   width: 40%;
@@ -23,10 +33,12 @@
   box-shadow: 30px 30px 60px 0px rgba(0, 0, 0, 0.3);
   border-radius: 40px;
   border: 0px;
+  outline: none;
 }
 
 .inputButton {
   font-size: 1.4em;
+  font-family: "Montserrat";
   padding: 3px 30px 5px 30px;
   justify-content: center;
   background-color: #fa2b56;

@@ -18,8 +18,8 @@ class SearchBar extends React.Component {
       <div>
         <form onSubmit={this.onFormSubmit} className="flexContainer">
           <label>
-            <h3 className="">WHAT ARE YOU LOOKING FOR</h3>
-            <h1 className="h1">WHAT ARE YOU LOOKING FOR</h1>
+            <h3 className="h3">WHAT ARE YOU LOOKING FOR</h3>
+            <h1 className="h1">What are you looking for?</h1>
           </label>
           <input
             className="inputStyle"
